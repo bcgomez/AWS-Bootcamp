@@ -1,0 +1,76 @@
+Using username "ec2-user".
+Authenticating with public key "imported-openssh-key"
+Last login: Thu Mar 12 23:08:55 2026 from 181.53.96.92
+   ,     #_
+   ~\_  ####_        Amazon Linux 2
+  ~~  \_#####\
+  ~~     \###|       AL2 End of Life is 2026-06-30.
+  ~~       \#/ ___
+   ~~       V~' '->
+    ~~~         /    A newer version of Amazon Linux is available!
+      ~~._.   _/
+         _/ _/       Amazon Linux 2023, GA and supported until 2028-03-15.
+       _/m/'           https://aws.amazon.com/linux/amazon-linux-2023/
+
+[ec2-user@ip-10-1-11-61 ~]$ python3 --version
+Python 3.7.16
+[ec2-user@ip-10-1-11-61 ~]$ nano primes.py
+[ec2-user@ip-10-1-11-61 ~]$ python3 primes.py
+Prime numbers saved in results.txt
+[ec2-user@ip-10-1-11-61 ~]$ cat results.txt
+2
+3
+5
+7
+11
+13
+17
+19
+23
+29
+31
+37
+41
+43
+47
+53
+59
+61
+67
+71
+73
+79
+83
+89
+97
+101
+103
+107
+109
+113
+127
+131
+137
+139
+149
+151
+157
+163
+167
+173
+179
+181
+191
+193
+197
+199
+211
+223
+227
+229
+233
+239
+241
+[ec2-user@ip-10-1-11-61 ~]$ ls
+primes.py  results.txt
+[ec2-user@ip-10-1-11-61 ~]$
